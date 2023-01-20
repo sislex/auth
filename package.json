@@ -2,7 +2,12 @@
   "name": "auth",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nx": "nx",
+    "start": "nx serve auth-app",
+    "start:prod": "nx serve auth-app --prod",
+    "build": "nx build auth-app"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.1.0",
